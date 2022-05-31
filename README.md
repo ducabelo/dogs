@@ -1,2 +1,3 @@
-# dogs
-Projeto de mídia social para cachorros do curso da Origamid
+# Dogs
+
+### Projeto de mídia social para cachorros do curso de React da Origamid
