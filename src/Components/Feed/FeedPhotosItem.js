@@ -1,13 +1,17 @@
 import React from 'react';
 import styles from './FeedPhotosItem.module.css';
 
-const FeedPhotoItem = ({ photo }) => {
+const FeedPhotosItem = ({ photo, setModalPhoto }) => {
+  function handleClick() {
+    setModalPhoto(photo);
+  }
+
   return (
-    <li className={styles.photo}>
+    <li className={styles.photo} onClick={handleClick}>
       <img src={photo.src} alt={photo.title} />
       <span className={styles.visualizations}>{photo.acessos}</span>
     </li>
   );
 };
 
-export default FeedPhotoItem;
+export default FeedPhotosItem;
