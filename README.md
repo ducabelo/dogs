@@ -24,5 +24,14 @@ Error - exibe os erros caso o usuário não preencha corretamente os formulário
 Loading - Animações de loading de página.
 PretectedRoutes - Joga o usuário para a página de login e esvazia o localstorage caso ele saia da conta.
 
+---- 18/06/2022 ----
+
+Adicionado o Feed Modal. 
+Ao clicar em uma das fotos da galeria que está em seu perfil, a foto é exibida em um modal com as informações.
+Componentes:
+
+- Feed Modal
+
+
 
 <img align="right" alt="Du-React" height="50" src= "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
